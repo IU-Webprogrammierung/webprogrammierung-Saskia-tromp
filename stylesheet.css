@@ -1,0 +1,49 @@
+p {
+    background-color: antiquewhite;
+}
+
+.p-right-header {
+    background-color: white;
+    font-family: IBM Plex Sans, sans-serif;
+    font-size: 14px;
+}
+
+.fixed-header {
+    display: flex;
+    justify-content: space-between;
+    /*position: fixed;                            /*sticky header???*/
+}
+
+.left-header {
+    background-color: #FF9100;
+    display: flex;
+    flex: 3;
+}
+
+.middle-header {                                    /*wabted to add flexible white space between left section & right section, but doesn't seem to work */
+    display: flex;
+    flex: 2.5;                                   /* this is a problem when shrinking the browser window...*/
+}
+
+.right-header {
+    display: flex;
+    flex-direction: row;                            /* omit?, is default value*/
+    align-items: center;
+    justify-content: space-between;
+    flex: 4;
+    margin-left: 100px;                             
+    margin-right: 100px;
+}
+
+.right-header-div {
+    min-width: 100px;
+}
+
+.header-pic-longboard {                             /* do I have to put this in a flexbox or grid container to avoid the non-responsiveness when I scale down the window?*/
+    width: 1900px;
+    height: 600px;
+    object-fit: cover;
+    object-position: 0, 50%;
+    max-inline-size: 100%;                             /* for some reason the last 2 lines override the object-fit and object-position?*/
+    
+}
