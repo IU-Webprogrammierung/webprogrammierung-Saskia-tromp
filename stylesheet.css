@@ -1,7 +1,3 @@
-p {
-    background-color: antiquewhite;
-}
-
 .p-right-header {
     background-color: white;
     font-family: IBM Plex Sans, sans-serif;
@@ -11,7 +7,7 @@ p {
 .fixed-header {
     display: flex;
     justify-content: space-between;
-    /*position: fixed;                            /*sticky header???*/
+    /*position: fixed;                            /*sticky header??? -> moves entire right-header to the left...*/
 }
 
 .left-header {
@@ -39,11 +35,31 @@ p {
     min-width: 100px;
 }
 
+.picture-container {
+    display: flex;
+}
+
 .header-pic-longboard {                             /* do I have to put this in a flexbox or grid container to avoid the non-responsiveness when I scale down the window?*/
     width: 1900px;
     height: 600px;
     object-fit: cover;
-    object-position: 0, 50%;
+    object-position: 0, 70%;
     max-inline-size: 100%;                             /* for some reason the last 2 lines override the object-fit and object-position?*/
     
+}
+
+/*.container {
+    display: flex;
+} */
+
+.content-container {
+    /*display: flex;*/
+    background-color: #fff;
+    margin-left: 100px;                             
+    margin-right: 100px;
+    height: 1000px;
+    width: 1700px;
+    position: absolute;
+    margin-top: -200px;
+
 }
