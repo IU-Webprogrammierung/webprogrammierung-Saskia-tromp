@@ -76,6 +76,7 @@ ul {
 #grid-container {
     margin: 80px;
     margin-top: 120px;
+    margin-bottom: 20px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 20px;
@@ -107,7 +108,7 @@ ul {
 
 /* Button css*/
 
-button {
+.read-more {
     padding-top: 12px;
     padding-bottom: 12px;
     padding-left: 24px;
@@ -116,4 +117,29 @@ button {
     font-family: IBM Plex Sans, Lato, sans-serif;
     background-color: orange;
     border: none;
+}
+
+.more-articles {
+    background-color: #fff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin: 24px;
+    font-family: IBM Plex Sans, Lato, sans-serif;
+    border: none;
+}
+
+.read-more-btn {
+    display: flex;
+    justify-content: center;
+    transition: transform 0.3s;
+}
+
+.read-more-btn:hover {
+    transform: translateY(-5px);
+    -webkit-transform: translateY(-5px);
+    -moz-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    -o-transform: translateY(-5px);
 }
