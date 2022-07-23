@@ -159,3 +159,28 @@ ul {
     -ms-transform: translateY(-5px);
     -o-transform: translateY(-5px);
 }
+
+/* footer css*/
+
+/* for some reason, this div below doesn't show up */
+
+/*.footer-bg-orange {
+    margin-left: 80px;
+    margin-top: 80px;
+    margin-right: 80px;
+    background-color: #FF9100;
+}
+*/
+
+.footer-container {
+    background-color: #dddddd;
+    padding: 40px;
+    display: flex;
+    flex: 1, 1;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.footer-form, .footer-text {
+    padding: 20px;
+}
