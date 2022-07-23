@@ -22,8 +22,21 @@ p {
     line-height: 2;
 }
 
+h1 {
+    font-size: 108px;
+    font-weight: 700;
+    padding-left: 72px;
+    margin-bottom: -60px;
+}
+
 h3 {
     padding-top: 12px;
+}
+
+.bg-div {
+    background-color: #FF9100;
+    max-width: 100%;
+    height: 240px;
 }
 
 /* Navbar CSS */
@@ -45,10 +58,12 @@ h3 {
 }
 
 .logo {
-    background-color: orange;
+    background-color: #FF9100;
     font-size: 44px;
     font-weight: 700;
     padding: 20px;
+    padding-left: 80px;
+    padding-right: 40px;
 }
 
 .nav-links ul {
@@ -63,7 +78,7 @@ h3 {
 }
 
 .nav-links ul li a:hover {
-    color: orange;
+    color: #FF9100;
     font-weight: bold;
 }
 
@@ -75,16 +90,16 @@ ul {
 
 #grid-container {
     margin: 80px;
-    margin-top: 120px;
+    margin-top: -140px;
     margin-bottom: 20px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     column-gap: 20px;
     row-gap: 20px;
 }
 
 .blogs {
-    margin-top: 80px;
+    margin-top: 40px;
 }
 
 #grid-1, #grid-2, #grid-3, #grid-4, #grid-5 {
@@ -95,6 +110,7 @@ ul {
     -moz-transition: transform 0.3s;
     -ms-transition: transform 0.3s;
     -o-transition: transform 0.3s;
+    
 }
 
 #grid-1:hover, #grid-2:hover, #grid-3:hover, #grid-4:hover, #grid-5:hover {
@@ -111,11 +127,11 @@ ul {
 .read-more {
     padding-top: 12px;
     padding-bottom: 12px;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-left: 32px;
+    padding-right: 32px;
     margin: 24px;
     font-family: IBM Plex Sans, Lato, sans-serif;
-    background-color: orange;
+    background-color: #FF9100;
     border: none;
 }
 
