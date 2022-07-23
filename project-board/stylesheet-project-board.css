@@ -132,3 +132,100 @@ h1, h2, h3 {
     position: absolute;
     margin-top: -140px;
 }
+
+/* footer css*/
+
+.footer {
+    margin-top: 4100px;
+}
+
+.footer-bg {
+    background-color: #FF9100;
+    height: 72px;
+    width: 40%;
+    margin-left: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-title {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 76px;
+    margin-bottom: -66px;
+}
+
+.footer-h1 {
+    font-size: 80px;
+    margin-bottom: -68px;
+}
+
+.footer-container {
+    background-color: #e2e2e2;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-text, .footer-form {
+    flex-grow: 1;
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 24px;
+    padding: 20px;
+}
+
+.form {
+    display: inline-flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding-top: 20px;
+}
+
+.input-mail, .input-msg, .input-name {
+    padding-left: 8px;
+    padding-top: 4px;
+    padding-right: 32px;
+    padding-bottom: 4px;
+    margin-bottom: 8px;
+    border: none;
+}
+
+.input-msg {
+    padding-bottom: 80px;
+}
+
+.developer-name {
+    display: flex;
+    justify-content: center;
+    background-color: #e2e2e2;
+    padding: 24px;
+    padding-top: 0px;
+}
+
+.footer-mail, .footer-insta, .footer-fb, .footer-linkedin {
+    border: none;
+    background-color: #FF9100;
+    padding: 24px;
+    margin: 20px;
+}
+
+.footer-mail {
+    margin-left: 0px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+ion-icon {
+    font-size: 32px;
+    color: #fff;
+    background-color: #FF9100;
+}
