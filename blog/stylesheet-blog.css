@@ -132,6 +132,7 @@ ul {
     margin: 24px;
     font-family: IBM Plex Sans, Lato, sans-serif;
     background-color: #FF9100;
+    color: #fff;
     border: none;
 }
 
@@ -168,6 +169,7 @@ ul {
     margin-top: 12px;
     font-family: IBM Plex Sans, Lato, sans-serif;
     background-color: #FF9100;
+    color: #fff;
     border: none;
     transition: transform 0.3s;
 }
@@ -193,7 +195,7 @@ ul {
 */
 
 .footer-container {
-    background-color: #dddddd;
+    background-color: #e2e2e2;
     padding: 40px;
     display: flex;
     flex: 1;
@@ -205,10 +207,57 @@ ul {
     padding: 20px;
 }
 
-.form {
+.footer-text {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    flex-grow: 1;
 }
 
+.form {
+    display: inline-flex;
+    flex-direction: column;
+    
+    flex-grow: 1;
+}
+.input-mail, .input-msg, .input-name {
+    padding-left: 8px;
+    padding-top: 4px;
+    padding-right: 32px;
+    padding-bottom: 4px;
+    margin-bottom: 8px;
+}
+
+.input-msg {
+    padding-bottom: 80px;
+}
+
+.developer-name {
+    display: flex;
+    justify-content: center;
+    background-color: #e2e2e2;
+    padding: 24px;
+    padding-top: 0px;
+}
+
+.footer-mail, .footer-insta, .footer-fb, .footer-linkedin {
+    border: none;
+    background-color: #FF9100;
+    padding: 24px;
+    margin: 20px;
+}
+
+.footer-mail {
+    margin-left: 0px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+ion-icon {
+    font-size: 32px;
+    color: #fff;
+    background-color: #FF9100;
+}
