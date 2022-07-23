@@ -115,19 +115,19 @@
                 <form class="form"> 
 
                     <div>
-                        <label class="name">Your Name:</label>
-                        <input class="input-name"> 
+                        <label class="name" for="name">Your Name:</label>
+                        <input class="input-name" name="name" id="name" type="text" placeholder="What's your name?"> 
                     </div>
                     <div>
-                        <label class="mail">Your E-Mail:</label>
-                        <input class="input-mail">
+                        <label class="mail" for="mail">Your E-Mail:*</label>
+                        <input class="input-mail" name="mail" id="mail" type="email" placeholder="What's your e-mail address?" required>
                     </div>
                     <div>
-                        <label class="msg">Your Message:</label>
-                        <input class="input-msg">
+                        <label class="msg" for="msg">Your Message:*</label>
+                        <input class="input-msg" name="msg" id="msg" type="text" placeholder="Type your message here?" required>
                     </div>
                     <div>
-                        <button class="Send-msg">
+                        <button class="Send-msg" type="submit">
                             Send Message        
                         </button>
                     </div>
