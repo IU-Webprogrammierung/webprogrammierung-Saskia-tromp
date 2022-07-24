@@ -159,7 +159,21 @@ ul {
     align-self: center;
 }
 
+.more-projects {
+    display: flex;
+    justify-content: center;
+}
 
+.more-projects-btn {
+    background-color: #fff;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin: 24px;
+    font-family: IBM Plex Sans, Lato, sans-serif;
+    border: none;
+}
 
 /* End body css */
 
