@@ -136,6 +136,15 @@ ul {
     background-color: #FF9100;
     color: #fff;
     border: none;
+    transition: transform 0.3s;
+}
+
+.view-case:hover {
+    transform: translateY(-3px);
+    -webkit-transform: translateY(-3px);
+    -moz-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    -o-transform: translateY(-3px);
 }
 
 /* card 2 (and 4) css */
@@ -173,6 +182,15 @@ ul {
     margin: 24px;
     font-family: IBM Plex Sans, Lato, sans-serif;
     border: none;
+    transition: transform 0.3s;
+}
+
+.more-projects-btn:hover {
+    transform: translateY(-3px);
+    -webkit-transform: translateY(-3px);
+    -moz-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    -o-transform: translateY(-3px);
 }
 
 /* End body css */
