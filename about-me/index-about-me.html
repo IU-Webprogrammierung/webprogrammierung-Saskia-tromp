@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="about-me/stylesheet-about-me.css">                         <!-- link html file with CSS -->
+    <link rel="stylesheet" href="stylesheet-about-me.css">                         <!-- link html file with CSS -->
     <meta charset="UTF-8">                                                          <!-- Characters -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -40,9 +40,127 @@
 
     </nav>
 
-    <header class="header">
+
+    <!--Main Container-->
+    <section class="about-me-container">
+        <div class="picture-container-1">
+            <img class="about-me-pic" src="bike-eifel.jpg" alt="Me on my gravelbike" style="width:100%">
+        </div>
+        <div class="text-container-1">
+            <p>Lorem ipsum dolor sit amet. A nobis deleniti et modi odio est quia quasi vel dignissimos facilis et voluptatem quasi et suscipit rerum 
+                et modi dignissimos! Aut eius placeat ad modi voluptas est placeat provident sit molestias facere aut possimus obcaecati eum rerum cumque. 
+            </p>
+            <p>Cum inventore voluptatem ut consequatur dolores non cumque corporis vel debitis iure et enim dolores nam voluptas voluptas? Ea internos quas 
+                vel omnis sapiente et tenetur pariatur sit quidem consequatur et magni natus aut minima recusandae. 
+            </p>
+            <p>Et nostrum velit 33 nihil ullam ut quia excepturi ut expedita internos et maxime velit. Et consectetur 
+                voluptate in ipsum totam est rerum iusto in beatae voluptas et explicabo sapiente sit sint nobis. Id illum quia est asperiores voluptatem 
+                et nesciunt amet in odit voluptatem. 
+            </p>
+        </div>
+
+        <div class="picture-container-2">
+            <img class="about-me-pic-2" src="ispo-board.jpg" alt="Me on my gravelbike" style="width:50%">
+
+        </div>
+        <div class="text-container-2">
+            <p>Lorem ipsum dolor sit amet. A nobis deleniti et modi odio est quia quasi vel dignissimos facilis et voluptatem quasi et suscipit rerum 
+                et modi dignissimos! Aut eius placeat ad modi voluptas est placeat provident sit molestias facere aut possimus obcaecati eum rerum cumque. 
+            </p>
+            <p>Cum inventore voluptatem ut consequatur dolores non cumque corporis vel debitis iure et enim dolores nam voluptas voluptas? Ea internos quas 
+                vel omnis sapiente et tenetur pariatur sit quidem consequatur et magni natus aut minima recusandae. 
+            </p>
+            
+        </div>
+
         
-    </header>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+
+        <div class="contact-bg">
+            <div class="footer-title">
+                <h1>Contact</h1>
+            </div>
+                <div class="footer-bg">
+            </div>
+        </div>
+
+        <div class="footer-container">
+            <div class="footer-text">
+                <h2>Let's Chat!</h2>
+                <br>
+                <p>If you're interested in working with me, 
+                    I'd love to hear from you! <br> Write your message 
+                    to saskia.x@hotmail.nl or click one of the buttons
+                    below to find me online.
+                </p>
+
+                <div class="footer-links">
+                    <div>
+                        <button class="footer-mail" >
+                            <ion-icon name="mail-outline"></ion-icon>   
+                        </button>
+                    </div>
+                    <div>
+                        <button class="footer-linkedin" >
+                            <ion-icon name="logo-linkedin"></ion-icon>          
+                        </button>
+                    </div>
+                    <div>
+                        <button class="footer-insta" >
+                            <ion-icon name="logo-instagram"></ion-icon>        
+                        </button>
+                    </div>
+                    <div>
+                        <button class="footer-fb" >
+                            <ion-icon name="logo-facebook"></ion-icon>       
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="footer-form">
+                <form class="form"> 
+
+                    <div>
+                        <label class="name" for="name">Your Name:</label>
+                    </div>
+                    <div>
+                        <input class="input-name" name="name" id="name" type="text" placeholder="What's your name?"> 
+                    </div>
+                    <div>
+                        <label class="mail" for="mail">Your E-Mail:*</label>
+                    </div>
+                    <div>
+                        <input class="input-mail" name="mail" id="mail" type="email" placeholder="Your e-mail address" required>
+                    </div>
+                    <div>
+                        <label class="msg" for="msg">Your Message:*</label>
+                    </div>
+                    <div>
+                        <input class="input-msg" name="msg" id="msg" type="text" placeholder="Type your message here..." required>
+                    </div>
+                    <div>
+                        <button class="Send-msg" type="submit">
+                            Send Message        
+                        </button>
+                    </div>
+                </form>          
+            </div>          
+        </div>
+
+        <div class="developer-name">
+            <p>&#169; Saskia Tromp 2022</p>
+        </div>
+
+    </section>
+    
+    <!--Script for icons from ionic.io-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
 </body>
 
 </html>
