@@ -21,6 +21,11 @@ p {
     line-height: 2;
 }
 
+h1 {
+    font-size: 64px;
+    font-weight: 700;
+}
+
 /* 1st div container css */
 
 
@@ -50,6 +55,7 @@ p {
 .picture-container-2 {
     max-width: 50%;
     margin-right: 10%;
+    margin-top: 20px;
 }
 
 .about-me-pic-2 {
