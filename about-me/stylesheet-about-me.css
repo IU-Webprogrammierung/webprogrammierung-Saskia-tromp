@@ -21,6 +21,18 @@ p {
     line-height: 2;
 }
 
+/* 1st div container css */
+
+
+
+.about-me-pic {
+    width: 100%;
+    max-height: 680px;
+    object-fit: cover;
+    object-position: 0, 65%;
+    max-inline-size: 100%; 
+}
+
 /* navbar css */
 
 .navbar .nav-container {
