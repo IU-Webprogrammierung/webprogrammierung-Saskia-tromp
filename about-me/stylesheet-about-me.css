@@ -108,12 +108,53 @@ h1 {
 ul {
     list-style-type: none;
 }
+
+label {
+    margin: 0 40px 0 0;
+    line-height: 60;
+    display: none;
+}
+
+#toggle {
+    display: none;
+}
+
+.burger-menu {
+    display: none;
+}
  
 /* End navbar css */
 
+/* Navbar media Queries */
+
+@media only screen and (max-width: 840px) {
+    .burger-menu {
+        display: block;
+    }
+
+    label   {
+        display: block;
+        cursor: pointer;
+        color: #000;
+        font-size: 26px;
+        font-weight: bolder;
+    } 
+
+    #toggle {
+        display: block;
+        margin-top: -10px;      
+    }
+
+    .nav-links {
+        display: none;
+        width: 100%;
+        border-bottom: 1px solid #eaeaeb;
+        margin: 0;
+    }
+}
+
+
 /* start footer css */
-
-
 
 .footer-bg {
     background-color: #FF9100;
