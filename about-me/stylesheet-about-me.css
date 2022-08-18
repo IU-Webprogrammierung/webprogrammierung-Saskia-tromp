@@ -208,6 +208,10 @@ label {
         max-height: 80%;
         padding-left: 10%;    
     }
+
+    h3 {
+        line-height: 2;
+    }
 }
 
 
