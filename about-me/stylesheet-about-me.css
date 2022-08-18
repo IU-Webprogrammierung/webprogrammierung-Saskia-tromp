@@ -336,3 +336,126 @@ ion-icon {
 }
 
 /* End footer css */
+
+/* Footer Media Queries */
+
+
+
+@media only screen and (max-width: 500px) {
+
+.footer-bg {
+    background-color: #FF9100;
+    height: 40px;
+    width: 40%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-right: 10px;
+    margin-bottom: -66px;
+    font-size: 40px;
+    font-weight: 700;
+    padding-left: 148px;
+    margin-bottom: -100px;
+}
+
+.footer-container {
+    background-color: #e2e2e2;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.footer-text, .footer-form {
+    flex-grow: 1;
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1.6;
+    margin-left: 12px;
+    padding: 8px;
+    padding-right: 8px;
+}
+
+.footer-form {
+    flex: 1;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding-top: 20px;
+}
+
+.input-mail, .input-msg, .input-name {
+    padding-left: 8px;
+    padding-top: 4px;
+    padding-right: 12px;
+    padding-bottom: 4px;
+    margin-bottom: 8px;
+    border: none;
+} 
+
+.input-msg {
+    padding-bottom: 8px;
+}
+
+.name, .mail, .msg {
+    padding: 0;
+    margin: 0;
+}
+
+.Send-msg {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-top: 12px;
+    font-family: IBM Plex Sans, Lato, sans-serif;
+    background-color: #FF9100;
+    color: #fff;
+    border: none;
+}
+
+.developer-name {
+    display: flex;
+    justify-content: center;
+    background-color: #e2e2e2;
+    padding: 24px;
+    padding-top: 0px;
+}
+
+.footer-mail, .footer-insta, .footer-fb, .footer-linkedin {
+    border: none;
+    background-color: #FF9100;
+    padding: 24px;
+    margin: 20px;
+}
+
+.footer-mail {
+    margin-left: 0px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+ion-icon {
+    font-size: 32px;
+    color: #fff;
+    background-color: #FF9100;
+}
+
+}
