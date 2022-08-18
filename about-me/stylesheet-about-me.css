@@ -18,17 +18,16 @@ a {
 
 p {
     margin-top: 20px;
-    line-height: 2;
+    line-height: 2.5;
 }
 
 h1 {
     font-size: 64px;
     font-weight: 700;
+    margin-bottom: 16px;
 }
 
 /* 1st div container css */
-
-
 
 .about-me-pic {
     width: 100%;
@@ -40,16 +39,16 @@ h1 {
 
 #content-container {
     margin-top: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 80px;
     display: flex;
     justify-content: center;
-    
+    align-items: center; 
 }
 
 .text-container-1 {
-    max-width: 50%;
+    max-width: 40%;
     margin-left: 10%;
-    padding-right: 30px;
+    padding-right: 40px;
 }
 
 .picture-container-2 {
