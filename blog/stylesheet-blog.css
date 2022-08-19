@@ -33,11 +33,7 @@ h3 {
     padding-top: 12px;
 }
 
-.bg-div {
-    background-color: #FF9100;
-    max-width: 100%;
-    height: 240px;
-}
+
 
 /* Navbar CSS */
 
@@ -90,7 +86,7 @@ ul {
 
 #grid-container {
     margin: 80px;
-    margin-top: -140px;
+    margin-top: -1400px;
     margin-bottom: 20px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -104,6 +100,7 @@ ul {
 
 #grid-1, #grid-2, #grid-3, #grid-4, #grid-5 {
     text-align: center;
+    background-color: #fff;
     box-shadow: 2px 2px 4px 0px rgba(80, 80, 80, 0.3);
     transition: transform 0.3s;
     -webkit-transition: transform 0.3s;
@@ -136,6 +133,11 @@ ul {
     border: none;
 }
 
+.read-more-btn {
+    display: flex;
+    justify-content: center;
+    transition: transform 0.3s;
+}
 .more-articles {
     background-color: #fff;
     padding-top: 8px;
@@ -145,12 +147,6 @@ ul {
     margin: 24px;
     font-family: IBM Plex Sans, Lato, sans-serif;
     border: none;
-}
-
-.read-more-btn {
-    display: flex;
-    justify-content: center;
-    transition: transform 0.3s;
 }
 
 .read-more-btn:hover {
@@ -180,6 +176,83 @@ ul {
     -moz-transform: translateY(-3px);
     -ms-transform: translateY(-3px);
     -o-transform: translateY(-3px);
+}
+
+/* Media Queries min 840px*/
+
+@media only screen and (min-width: 840px) {
+
+.bg-div {
+    background-color: #FF9100;
+    max-width: 100%;
+    height: 240px;
+}
+
+.bg-div-2 {
+    max-width: 100%;
+    height: 10px;
+}
+
+#grid-container {
+    margin-top: 60px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+h1 {
+    margin-left: 40px;
+}
+
+}
+
+/* Media Queries 840px*/
+
+@media only screen and (max-width: 840px) {
+
+    #grid-container {
+        margin: 40px;
+        margin-top: 80px;
+        margin-bottom: 20px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+    
+    .blogs {
+        margin-top: 40px;
+    }
+    
+    #grid-1, #grid-2, #grid-3, #grid-4, #grid-5 {
+        text-align: center;
+        background-color: #fff;
+        box-shadow: 2px 2px 4px 0px rgba(80, 80, 80, 0.3);
+    }
+
+    h1 {
+        font-size: 56px;
+        margin-top: 16px;
+        margin-left: 0px;
+    }
+
+    h3 {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+}
+
+
+/* Media Queries 430px*/
+
+@media only screen and (max-width: 430px) {
+    h1 {
+        margin-left: -36px;
+    }
+
+    .read-more-btn {
+        margin-bottom: 40px;
+    }
 }
 
 /* footer css*/
