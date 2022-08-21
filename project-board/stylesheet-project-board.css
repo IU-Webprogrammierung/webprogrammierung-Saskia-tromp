@@ -133,99 +133,43 @@ h1, h2, h3 {
     margin-top: -140px;
 }
 
-/* footer css*/
-
-.footer {
-    margin-top: 4100px;
-}
-
-.footer-bg {
-    background-color: #FF9100;
-    height: 72px;
-    width: 40%;
-    margin-left: 80px;
-    display: flex;
-    justify-content: center;
-}
-
-.footer-title {
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 76px;
-    margin-bottom: -66px;
-}
-
-.footer-h1 {
-    font-size: 80px;
-    margin-bottom: -68px;
-}
-
-.footer-container {
-    background-color: #e2e2e2;
-    padding: 40px;
-    display: flex;
-    justify-content: center;
-}
-
-.footer-text, .footer-form {
-    flex-grow: 1;
-}
-
-.footer-text {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-left: 24px;
-    padding: 20px;
-}
-
-.form {
-    display: inline-flex;
-    flex-direction: column;
-    flex-grow: 1;
-    padding-top: 20px;
-}
-
-.input-mail, .input-msg, .input-name {
-    padding-left: 8px;
-    padding-top: 4px;
+.contact-btn {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 32px;
     padding-right: 32px;
-    padding-bottom: 4px;
-    margin-bottom: 8px;
-    border: none;
-}
-
-.input-msg {
-    padding-bottom: 80px;
-}
-
-.developer-name {
-    display: flex;
-    justify-content: center;
-    background-color: #e2e2e2;
-    padding: 24px;
-    padding-top: 0px;
-}
-
-.footer-mail, .footer-insta, .footer-fb, .footer-linkedin {
-    border: none;
+    margin-top: 12px;
+    margin-bottom: 40px;
+    font-family: IBM Plex Sans, Lato, sans-serif;
     background-color: #FF9100;
-    padding: 24px;
-    margin: 20px;
-}
-
-.footer-mail {
-    margin-left: 0px;
-}
-
-.footer-links {
-    display: flex;
-    justify-content: space-between;
-    
-}
-
-ion-icon {
-    font-size: 32px;
     color: #fff;
-    background-color: #FF9100;
+    border: none;
+    transition: transform 0.3s;
+}
+
+.contact-btn:hover {
+    transform: translateY(-3px);
+    -webkit-transform: translateY(-3px);
+    -moz-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    -o-transform: translateY(-3px);
+}
+
+.contact-p {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+
+
+/* Media Queries */
+
+/* Ipad größe max 1010px */
+
+@media only screen and (max-width: 1010px) {
+    .page-container {
+        margin: 0 auto;
+        padding: 20px 20px 20px 20px;
+    }
+
 }
