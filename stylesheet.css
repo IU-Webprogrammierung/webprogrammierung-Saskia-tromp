@@ -64,3 +64,12 @@ ul {
     list-style-type: none;
 }
 
+/* Container css */
+
+.content-container {
+    display: grid;
+    grid-template-columns: repeat (12,1fr);
+    grid-template-rows: 10, 1fr;                /* do this with fr or with px?? */
+    gap: 20px;
+}
+
