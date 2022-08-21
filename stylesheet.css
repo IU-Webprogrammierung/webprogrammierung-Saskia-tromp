@@ -12,7 +12,7 @@ body {
 }
 
 h1 {
-    font-size: 96px;
+    font-size: 88px;
 }
 
 a {
@@ -140,6 +140,15 @@ ul {
     padding-left: 60px;
 }
 
+.icons {
+    display: flex;
+}
+
+.icon {
+    margin-right: 12px;
+    margin-top: 12px;
+}
+
 .item:nth-of-type(5) {
     grid-column: 8 / 12;
     grid-row: 2 / 8;
@@ -186,4 +195,56 @@ ul {
     -moz-transform: translateY(-3px);
     -ms-transform: translateY(-3px);
     -o-transform: translateY(-3px);
+}
+
+/* Media Queries max 1500px*/
+
+@media only screen and (max-width: 1500px) {
+    h1 {
+        font-size: 64px;
+    }
+
+    p {
+        margin-top: 8px;
+        margin-bottom: 12px;
+        line-height: 1.5;
+        font-size: 14px;
+    }
+    
+    h3 {
+        font-size: 12px;
+        font-weight: 500;
+        margin-top: 14px;
+    }
+    
+    .orange {
+        color: #fff;
+        font-size: 16px;
+        margin-top: 8px;
+    }
+
+    .item:nth-of-type(5) {
+        margin-left: 40px;
+    }
+    
+    .white-bg {
+        margin-bottom: 12px;
+    }
+    
+    .item:nth-of-type(6) {
+        margin-left: 40px;
+    }
+
+    .more-btn {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-right: 0px;
+    }
+
+}
+
+/* Media Queries max 1100 px */
+
+@media only screen and (max-width: 1100px) {
+    
 }
