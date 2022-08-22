@@ -298,7 +298,7 @@ h3 {
     #grid-container {
     margin-left: 20%;
     margin-right: 20%;
-    grid-template-rows: repeat(36,100px);
+    grid-template-rows: repeat(16,100px);
     }
 
     .blog-title {
@@ -310,6 +310,9 @@ h3 {
 
     .read-article-btn {
         margin-left: 60px;
+        margin-top: 28px;
+        padding-top: 16px;
+        padding-bottom: 16px;
     }
     
 
