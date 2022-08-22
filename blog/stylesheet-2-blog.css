@@ -317,3 +317,30 @@ h3 {
     
 
 }
+
+.btn-flexbox {
+    display: flex;
+    justify-content: center;
+}
+
+.more-articles-btn {
+    transition: transform 0.3s;
+}
+.more-articles-btn {
+    background-color: #fff;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin: 24px;
+    font-family: IBM Plex Sans, Lato, sans-serif;
+    border: none;
+}
+
+.more-articles-btn:hover {
+    transform: translateX(5px);
+    -webkit-transform: translateX(5px);
+    -moz-transform: translateX(5px);
+    -ms-transform: translateX(5px);
+    -o-transform: translateX(5px);
+}
