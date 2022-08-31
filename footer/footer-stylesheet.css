@@ -21,7 +21,9 @@ body {
     margin: 20px;
     margin-left: 0px;
     margin-right: 0px;
-
+    max-width: 1180px;                          /*ADJUST MED QUERIES */
+    margin-right: auto;
+    margin-left: auto;                             /*stays in the middle */
 }
 
 .ftr-item:nth-of-type(1) {
@@ -75,87 +77,27 @@ ion-icon {
 }
 
 .ftr-item:nth-of-type(5) {
-    background-color: #493711;
     grid-column: 8 / 11;
     grid-row: 3 / 9;
 }
 
-.ftr-item:nth-of-type(6) {
-    grid-column: 5 / 9;
-    grid-row: 9 / 10;
-}
-
-.developer-name {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    
-}
-
-
-
-/* start footer css 
-
-.footer-bg {
-    background-color: #FF9100;
-    height: 72px;
-    width: 40%;
-    margin-left: 80px;
-    display: flex;
-    justify-content: center;
-}
-
-.footer-title {
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 72px;
-    margin-bottom: -66px;
-    font-size: 64px;
-    font-weight: 700;
-    padding-left: 72px;
-    margin-bottom: -120px;
-}
-
-.footer-container {
-    background-color: #e2e2e2;
-    padding: 40px;
-    display: flex;
-    justify-content: center;
-}
-
-.footer-text, .footer-form {
-    flex-grow: 1;
-}
-
-.footer-text {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    flex: 1.6;
-    margin-left: 24px;
-    padding: 20px;
-    padding-right: 40px;
-}
-
-.footer-form {
-    flex: 1;
-}
+/* FORM STYLING */
 
 .form {
-    display: inline-flex;
-    flex-direction: column;
-    flex-grow: 1;
-    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
-.input-mail, .input-msg, .input-name {
-    padding-left: 8px;
-    padding-top: 4px;
-    padding-right: 32px;
-    padding-bottom: 4px;
-    margin-bottom: 8px;
-    border: none;
+.form label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+
+.input-name, .input-mail, .input-msg {
     width: 100%;
+    border-style: none;
+    padding: 4px;
 }
 
 .input-msg {
@@ -183,35 +125,14 @@ ion-icon {
     -o-transform: translateY(-3px);
 }
 
+.ftr-item:nth-of-type(6) {
+    grid-column: 5 / 9;
+    grid-row: 9 / 10;
+}
+
 .developer-name {
     display: flex;
     justify-content: center;
-    background-color: #e2e2e2;
-    padding: 24px;
-    padding-top: 0px;
-}
-
-.footer-mail, .footer-insta, .footer-fb, .footer-linkedin {
-    border: none;
-    background-color: #FF9100;
-    padding: 24px;
-    margin: 20px;
-}
-
-.footer-mail {
-    margin-left: 0px;
-}
-
-.footer-links {
-    display: flex;
-    justify-content: space-between;
+    padding: 20px;
     
 }
-
-ion-icon {
-    font-size: 32px;
-    color: #fff;
-    background-color: #FF9100;
-}
-
- End footer css */
