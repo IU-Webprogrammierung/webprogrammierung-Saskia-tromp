@@ -137,6 +137,13 @@ ion-icon {
     
 }
 
+/* Placeholder Text CSS */
+
+::placeholder {
+    color: #000;
+    font-weight: 600;
+}
+
 /* MEDIA QUERIES FTR */
 
 @media only screen and (min-width: 1150px){
