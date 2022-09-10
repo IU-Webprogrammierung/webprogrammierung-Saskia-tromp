@@ -19,16 +19,36 @@ body {
 #content-container {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(44, 120px);                
+    grid-template-rows: repeat(52, 120px);                
     gap: 0px;
     margin: 20px;
     margin-left: 0px;
     margin-right: 0px;
 }
 
+p {
+    line-height: 2;
+}
+
+h1 {
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+h1, h2, h3, p {
+    margin-bottom: 20px;
+}
+
 .content-item:nth-of-type(1) {
     grid-column: 1 / 13;
     grid-row: 1 / 6;
+    background-color: #ff9100;
+    background-image: url("Longboard-5385.jpg");
+    height: 600px;                           /*ADJUST FOR MEDIA QUERY*/
+    max-width: 100%;
+    background-position: center;            /* Center the image */
+    background-repeat: no-repeat;           /* Do not repeat the image */
+    background-size: cover;
 }
 
 .content-item:nth-of-type(2) {
@@ -45,7 +65,7 @@ body {
 
 .content-item:nth-of-type(4) {
     grid-column: 4 / 10;
-    grid-row: 5 / 10;
+    grid-row: 4 / 8;
 }
 
 .content-item:nth-of-type(5) {
@@ -55,36 +75,81 @@ body {
 
 .content-item:nth-of-type(6) {
     grid-column: 4 / 10;
-    grid-row: 12 / 20;              /*BACKGROUND IMAGA???*/
+    grid-row: 13 / 17;              /*BACKGROUND IMAGA???*/
+    background-image: url("stand-on-board.jpg");
+    height: 600px;                           /*ADJUST FOR MEDIA QUERY*/
+    max-width: 100%;
+    background-position: center;            /* Center the image */
+    background-repeat: no-repeat;           /* Do not repeat the image */
+    background-size: cover;
 }
 
 .content-item:nth-of-type(7) {
     grid-column: 4 / 10;
-    grid-row: 21 / 24;
+    grid-row: 18 / 21;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .content-item:nth-of-type(8) {
     grid-column: 4 / 10;
-    grid-row: 25 / 28;
+    grid-row: 23 / 28;
+    background-image: url("go-skate-logo.png");
+    background-position: center;            /* Center the image */
+    background-repeat: no-repeat;           /* Do not repeat the image */
+    background-size: cover;    
 }
 
 .content-item:nth-of-type(9) {
     grid-column: 4 / 10;
     grid-row: 28 / 32;
+    margin-top: 20px;
 }
 
 .content-item:nth-of-type(10) {
     grid-column: 4 / 10;
     grid-row: 32 / 34;
+    background-image: url("rocket-ad.jpg");
+    height: 1200px;                           /*ADJUST FOR MEDIA QUERY*/
+    max-width: 100%;
+    background-position: center;            /* Center the image */
+    background-repeat: no-repeat;           /* Do not repeat the image */
+    background-size: cover;
 }
 
 .content-item:nth-of-type(11) {
     grid-column: 4 / 10;
-    grid-row: 34 / 38;
+    grid-row: 42 / 46;
 }
 
 .content-item:nth-of-type(12) {
     grid-column: 4 / 10;
-    grid-row: 38 / 40;
+    grid-row: 46 / 450;
 }
 
+.contact-p {
+    font-weight: 700;
+}
+
+.contact-btn {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-top: 12px;
+    font-family: IBM Plex Sans, Lato, sans-serif;
+    background-color: #FF9100;
+    color: #fff;
+    border: none;
+    transition: transform 0.3s;
+}
+
+.contact-btn:hover {
+    transform: translateY(-3px);
+    -webkit-transform: translateY(-3px);
+    -moz-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    -o-transform: translateY(-3px);
+}
+
+/* FOOTER */
