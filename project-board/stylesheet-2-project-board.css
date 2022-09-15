@@ -49,10 +49,10 @@ h3 {
     grid-row: 1 / 6;
     background-color: #ff9100;
     background-image: url("Longboard-5385.jpg");
-    height: 600px;                           /*ADJUST FOR MEDIA QUERY*/
+    height: 600px;                           
     max-width: 100%;
-    background-position: center;            /* Center the image */
-    background-repeat: no-repeat;           /* Do not repeat the image */
+    background-position: center;            
+    background-repeat: no-repeat;           
     background-size: cover;
 }
 
@@ -81,12 +81,12 @@ h3 {
 
 .content-item:nth-of-type(6) {
     grid-column: 4 / 10;
-    grid-row: 13 / 17;              /*BACKGROUND IMAGA???*/
+    grid-row: 13 / 17;              
     background-image: url("stand-on-board.jpg");
-    height: 600px;                           /*ADJUST FOR MEDIA QUERY*/
+    height: 600px;                           
     max-width: 100%;
-    background-position: center;            /* Center the image */
-    background-repeat: no-repeat;           /* Do not repeat the image */
+    background-position: center;            
+    background-repeat: no-repeat;           
     background-size: cover;
 }
 
@@ -107,10 +107,10 @@ h3 {
     grid-column: 4 / 10;
     grid-row: 30 / 34;
     background-image: url("rocket-ad.jpg");
-    height: 1400px;                           /*ADJUST FOR MEDIA QUERY*/
+    height: 1400px;                           
     max-width: 100%;
-    background-position: center;            /* Center the image */
-    background-repeat: no-repeat;           /* Do not repeat the image */
+    background-position: center;            
+    background-repeat: no-repeat;           
     background-size: cover;
 }
 
@@ -185,7 +185,7 @@ h3 {
     .content-item:nth-of-type(10) {
         grid-column: 3 / 11;
         grid-row: 28 / 41;
-        height: 1500px;                           /*ADJUST FOR MEDIA QUERY*/
+        height: 1500px;                          
         max-width: 100%;
     }
     
@@ -266,7 +266,7 @@ h3 {
     .content-item:nth-of-type(10) {
         grid-column: 3 / 11;
         grid-row: 30 / 41;
-        height: 100%;                           /*ADJUST FOR MEDIA QUERY*/
+        height: 100%;                          
     }
 
     .content-item:nth-of-type(11) {
@@ -381,10 +381,10 @@ h3 {
 
     .content-item:nth-of-type(10) {
         grid-row: 32 / 44;
-        height: 1300px;                           /*ADJUST FOR MEDIA QUERY*/
+        height: 1300px;                           
         max-width: 100%;
-        background-position: center;            /* Center the image */
-        background-repeat: no-repeat;           /* Do not repeat the image */
+        background-position: center;            
+        background-repeat: no-repeat;           
         background-size: cover;
     }
 
@@ -434,10 +434,10 @@ h3 {
     .content-item:nth-of-type(10) {
         grid-column: 2 / 12;
         grid-row: 35 / 44;
-        height: 900px;                           /*ADJUST FOR MEDIA QUERY*/
+        height: 900px;                           
         width: 100%;
-        background-position: cover;            /* Center the image */
-        background-repeat: no-repeat;           /* Do not repeat the image */
+        background-position: cover;            
+        background-repeat: no-repeat;           
         background-size: cover;
     }
 
@@ -483,13 +483,11 @@ h3 {
     .content-item:nth-of-type(1) {
         grid-column: 1 / 13;
         grid-row: 1 / 6;
-        background-color: #ff9100;
-        background-image: url("Longboard-5385.jpg");
-        height: 600px;                           /*ADJUST FOR MEDIA QUERY*/
+        height: 600px;                           
         max-width: 100%;
-        background-position: 50% 20%;            /* Center the image */
-        background-repeat: no-repeat;           /* Do not repeat the image */
-        background-size: cover;
+        background-position: 50% -5%;            
+        background-repeat: no-repeat;           
+        background-size: contain;
     }
     
     .content-item:nth-of-type(2) {
@@ -520,10 +518,10 @@ h3 {
         grid-row: 30 / 35;
         margin-top: 0px;              
         background-image: url("stand-on-board.jpg");
-        height: 600px;                           /*ADJUST FOR MEDIA QUERY*/
+        height: 600px;                          
         max-width: 100%;
-        background-position: center;            /* Center the image */
-        background-repeat: no-repeat;           /* Do not repeat the image */
+        background-position: center;            
+        background-repeat: no-repeat;           
         background-size: cover;
     }
     
@@ -544,7 +542,7 @@ h3 {
         grid-column: 2 / 12;
         grid-row: 68 / 81;
         background-image: url("rocket-ad.jpg");
-        height: 1000px;                           /*ADJUST FOR MEDIA QUERY*/
+        height: 1000px;                           
         max-width: 100%;
         max-height: 100%;
         margin-top: 0px;
@@ -564,7 +562,7 @@ h3 {
     }
 }
 
-/* Mobile Media Queries 440 - 539px*/ /*--------------------------------------------------*/
+/* Mobile Media Queries 440 - 539px*/ 
 
 @media only screen and (max-width:539px) {
     #content-container {
@@ -578,10 +576,10 @@ h3 {
     .content-item:nth-of-type(1) {
         grid-column: 1 / 13;
         grid-row: 1 / 6;
-        height: 600px;                           /*ADJUST FOR MEDIA QUERY*/
+        height: 600px;                           
         max-width: 100%;
-        background-position: 50% -5%;            /* Center the image */
-        background-repeat: no-repeat;           /* Do not repeat the image */
+        background-position: 50% -5%;            
+        background-repeat: no-repeat;           
         background-size: contain;
     }
     
@@ -612,12 +610,12 @@ h3 {
         grid-column: 2 / 12;
         grid-row: 55 / 62;              
         background-image: url("stand-on-board.jpg");
-        height: 1000px;                           /*ADJUST FOR MEDIA QUERY*/
+        height: 1000px;                           
         max-width: 100%;
         margin-bottom: 0px;
         margin-top: 16px;
-        background-position: center;            /* Center the image */
-        background-repeat: no-repeat;           /* Do not repeat the image */
+        background-position: center;            
+        background-repeat: no-repeat;           
         background-size: cover;
     }
     
@@ -638,12 +636,12 @@ h3 {
         grid-column: 2 / 12;
         grid-row: 132 / 144;
         background-image: url("rocket-ad.jpg");
-        height: 1000px;                           /*ADJUST FOR MEDIA QUERY*/
+        height: 1000px;                           
         max-width: 100%;
         max-height: 100%;
         margin-top: 0px;
-        background-position: top;            /* Center the image */
-        background-repeat: no-repeat;           /* Do not repeat the image */
+        background-position: top;            
+        background-repeat: no-repeat;           
         background-size: contain;
     }
     
@@ -658,7 +656,7 @@ h3 {
     }
 }
 
-/* Mobile Media Queries 401 - 440px*/ /*--------------------------------------------------*/
+/* Mobile Media Queries 401 - 440px*/ 
 @media only screen and (max-width:440px) {
     #content-container {
         grid-template-rows: repeat(169, 40px);                
@@ -693,7 +691,7 @@ h3 {
 
 }
 
-/* Mobile Media Queries 375 - 400px*/ /*--------------------------------------------------*/
+/* Mobile Media Queries 375 - 400px*/ 
 
 @media only screen and (max-width:400px) {
     #content-container {
@@ -703,10 +701,10 @@ h3 {
     .content-item:nth-of-type(1) {
         grid-column: 1 / 13;
         grid-row: 1 / 6;
-        height: 600px;                           /*ADJUST FOR MEDIA QUERY*/
+        height: 600px;                           
         max-width: 100%;
-        background-position: 50% -5%;            /* Center the image */
-        background-repeat: no-repeat;           /* Do not repeat the image */
+        background-position: 50% -5%;            
+        background-repeat: no-repeat;           
         background-size: contain;
     }
     
@@ -737,12 +735,12 @@ h3 {
         grid-column: 2 / 12;
         grid-row: 54 / 62;              
         background-image: url("stand-on-board.jpg");
-        height: 1200px;                           /*ADJUST FOR MEDIA QUERY*/
+        height: 1200px;                           
         max-width: 100%;
         margin-bottom: 45px;
         margin-top: 8px;
-        background-position: center;            /* Center the image */
-        background-repeat: no-repeat;           /* Do not repeat the image */
+        background-position: center;            
+        background-repeat: no-repeat;           
         background-size: cover;
     }
     
@@ -763,12 +761,12 @@ h3 {
         grid-column: 2 / 12;
         grid-row: 129 / 141;
         background-image: url("rocket-ad.jpg");
-        height: 1000px;                           /*ADJUST FOR MEDIA QUERY*/
+        height: 1000px;                           
         max-width: 100%;
         max-height: 100%;
         margin-top: 0px;
-        background-position: top;            /* Center the image */
-        background-repeat: no-repeat;           /* Do not repeat the image */
+        background-position: top;            
+        background-repeat: no-repeat;          
         background-size: contain;
     }
     
@@ -785,7 +783,7 @@ h3 {
 
 
 
-/* Mobile Media Queries 360 - 375px*/ /*--------------------------------------------------*/
+/* Mobile Media Queries 360 - 375px*/ 
 
 @media only screen and (max-width:375px) {
     #content-container {
@@ -814,10 +812,10 @@ h3 {
     .content-item:nth-of-type(1) {
         grid-column: 1 / 13;
         grid-row: 1 / 6;
-        height: 600px;                           /*ADJUST FOR MEDIA QUERY*/
+        height: 600px;                           
         max-width: 100%;
-        background-position: 50% -5%;            /* Center the image */
-        background-repeat: no-repeat;           /* Do not repeat the image */
+        background-position: 50% -5%;            
+        background-repeat: no-repeat;           
         background-size: contain;
     }
     
@@ -848,12 +846,12 @@ h3 {
         grid-column: 2 / 12;
         grid-row: 55 / 62;              
         background-image: url("stand-on-board.jpg");
-        height: 1000px;                           /*ADJUST FOR MEDIA QUERY*/
+        height: 1000px;                           
         max-width: 100%;
         margin-bottom: 0px;
         margin-top: 16px;
-        background-position: center;            /* Center the image */
-        background-repeat: no-repeat;           /* Do not repeat the image */
+        background-position: center;            
+        background-repeat: no-repeat;           
         background-size: cover;
     }
     
@@ -874,12 +872,12 @@ h3 {
         grid-column: 2 / 12;
         grid-row: 132 / 144;
         background-image: url("rocket-ad.jpg");
-        height: 1000px;                           /*ADJUST FOR MEDIA QUERY*/
+        height: 1000px;                           
         max-width: 100%;
         max-height: 100%;
         margin-top: 0px;
-        background-position: top;            /* Center the image */
-        background-repeat: no-repeat;           /* Do not repeat the image */
+        background-position: top;            
+        background-repeat: no-repeat;           
         background-size: contain;
     }
     
