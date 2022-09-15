@@ -105,7 +105,7 @@ h3 {
 
 .content-item:nth-of-type(10) {
     grid-column: 4 / 10;
-    grid-row: 29 / 34;
+    grid-row: 30 / 34;
     background-image: url("rocket-ad.jpg");
     height: 1400px;                           /*ADJUST FOR MEDIA QUERY*/
     max-width: 100%;
@@ -116,12 +116,12 @@ h3 {
 
 .content-item:nth-of-type(11) {
     grid-column: 4 / 10;
-    grid-row: 41 / 46;
+    grid-row: 43 / 46;
 }
 
 .content-item:nth-of-type(12) {
     grid-column: 4 / 10;
-    grid-row: 45 / 47;
+    grid-row: 47 / 49;
 }
 
 .contact-p {
@@ -212,6 +212,10 @@ h3 {
 /* MEDIA QUERY 1400 */
 
 @media only screen and (max-width:1400px) {
+    #content-container {
+        grid-template-rows: repeat(50, 120px);
+    }
+    
     .content-item:nth-of-type(9) {
         margin-top: 20px;
     } 
@@ -223,18 +227,22 @@ h3 {
      
     .content-item:nth-of-type(11) {
         grid-column: 3 / 11;
-        grid-row: 42 / 46;
+        grid-row: 44 / 48;
     }
 
     .content-item:nth-of-type(12) {
         grid-column: 3 / 11;
-        grid-row: 46 / 47;
+        grid-row: 48 / 50;
     }
 }
 
 /* MEDIA QUERY 1250 */
 
 @media only screen and (max-width:1250px) {
+
+    #content-container {
+        grid-template-rows: repeat(47, 120px);
+    }
 
     h1 {
         font-size: 52px;
@@ -260,6 +268,16 @@ h3 {
         grid-row: 30 / 41;
         height: 100%;                           /*ADJUST FOR MEDIA QUERY*/
     }
+
+    .content-item:nth-of-type(11) {
+        grid-column: 3 / 11;
+        grid-row: 42 / 45;
+    }
+    .content-item:nth-of-type(12) {
+        grid-column: 3 / 11;
+        grid-row: 46 / 49;
+    }
+
 }
 
 /* MEDIA QUERY 1200 */
@@ -553,31 +571,216 @@ h3 {
         grid-template-rows: repeat(175, 40px);                
     }
 
-    p {
-        line-height: 2;
-    }
-    
     h1 {
-        font-size: 34px;
-        margin-top: 20px; 
+        font-size: 38px;
+    }
+
+    .content-item:nth-of-type(1) {
+        grid-column: 1 / 13;
+        grid-row: 1 / 6;
+        height: 600px;                           /*ADJUST FOR MEDIA QUERY*/
+        max-width: 100%;
+        background-position: 50% -5%;            /* Center the image */
+        background-repeat: no-repeat;           /* Do not repeat the image */
+        background-size: contain;
     }
     
-    h1, h2, h3, p {
-        margin-bottom: 16px;
+    .content-item:nth-of-type(2) {
+        grid-column: 1 / 13;
+        grid-row: 5 / 200;
+        background-color: #fff;
     }
     
-    h3 {
-        font-weight: 400;
-        font-style: italic;
-        line-height: 2;
+    .content-item:nth-of-type(3) {
+        grid-column: 1 / 13;
+        grid-row: 6 / 200;
+        background-color: #fff;
+    }
+    
+    .content-item:nth-of-type(4) {
+        grid-column: 2 / 12;
+        grid-row: 5 / 9;
+        margin-bottom: 12px;
+    }
+    
+    .content-item:nth-of-type(5) {
+        grid-column: 2 / 12;
+        grid-row: 19 / 30;
+    }
+    
+    .content-item:nth-of-type(6) {
+        grid-column: 2 / 12;
+        grid-row: 55 / 62;              
+        background-image: url("stand-on-board.jpg");
+        height: 1000px;                           /*ADJUST FOR MEDIA QUERY*/
+        max-width: 100%;
+        margin-bottom: 0px;
+        margin-top: 16px;
+        background-position: center;            /* Center the image */
+        background-repeat: no-repeat;           /* Do not repeat the image */
+        background-size: cover;
+    }
+    
+    .content-item:nth-of-type(7) {
+        grid-column: 2 / 12;
+        grid-row: 60 / 100;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .content-item:nth-of-type(9) {
+        grid-column: 2 / 12;
+        grid-row: 96 / 129;
+        margin-top: 0px;
+    }
+    
+    .content-item:nth-of-type(10) {
+        grid-column: 2 / 12;
+        grid-row: 132 / 144;
+        background-image: url("rocket-ad.jpg");
+        height: 1000px;                           /*ADJUST FOR MEDIA QUERY*/
+        max-width: 100%;
+        max-height: 100%;
+        margin-top: 0px;
+        background-position: top;            /* Center the image */
+        background-repeat: no-repeat;           /* Do not repeat the image */
+        background-size: contain;
+    }
+    
+    .content-item:nth-of-type(11) {
+        grid-column: 2 / 12;
+        grid-row: 144 / 170;
+    }
+    
+    .content-item:nth-of-type(12) {
+        grid-column: 2 / 12;
+        grid-row: 170 / 174;
     }
 }
 
-
-/* Mobile Media Queries 375 - 440px*/ /*--------------------------------------------------*/
-
+/* Mobile Media Queries 401 - 440px*/ /*--------------------------------------------------*/
 @media only screen and (max-width:440px) {
+    #content-container {
+        grid-template-rows: repeat(169, 40px);                
+    }
     
+    .content-item:nth-of-type(6) {
+        grid-column: 2 / 12;
+        grid-row: 53 / 62;              
+    }
+
+    .content-item:nth-of-type(9) {
+        grid-column: 2 / 12;
+        grid-row: 94 / 129;
+        margin-top: 0px;
+    }
+
+    .content-item:nth-of-type(10) {
+        grid-column: 2 / 12;
+        grid-row: 127 / 141;
+        background-image: url("rocket-ad.jpg");
+    }
+    
+    .content-item:nth-of-type(11) {
+        grid-column: 2 / 12;
+        grid-row: 140 / 170;
+    }
+    
+    .content-item:nth-of-type(12) {
+        grid-column: 2 / 12;
+        grid-row: 165 / 168;
+    }
+
+}
+
+/* Mobile Media Queries 375 - 400px*/ /*--------------------------------------------------*/
+
+@media only screen and (max-width:400px) {
+    #content-container {
+        grid-template-rows: repeat(171, 40px);                
+    }
+
+    .content-item:nth-of-type(1) {
+        grid-column: 1 / 13;
+        grid-row: 1 / 6;
+        height: 600px;                           /*ADJUST FOR MEDIA QUERY*/
+        max-width: 100%;
+        background-position: 50% -5%;            /* Center the image */
+        background-repeat: no-repeat;           /* Do not repeat the image */
+        background-size: contain;
+    }
+    
+    .content-item:nth-of-type(2) {
+        grid-column: 1 / 13;
+        grid-row: 5 / 200;
+        background-color: #fff;
+    }
+    
+    .content-item:nth-of-type(3) {
+        grid-column: 1 / 13;
+        grid-row: 6 / 200;
+        background-color: #fff;
+    }
+    
+    .content-item:nth-of-type(4) {
+        grid-column: 2 / 12;
+        grid-row: 5 / 9;
+        margin-bottom: 12px;
+    }
+    
+    .content-item:nth-of-type(5) {
+        grid-column: 2 / 12;
+        grid-row: 19 / 30;
+    }
+    
+    .content-item:nth-of-type(6) {
+        grid-column: 2 / 12;
+        grid-row: 54 / 62;              
+        background-image: url("stand-on-board.jpg");
+        height: 1200px;                           /*ADJUST FOR MEDIA QUERY*/
+        max-width: 100%;
+        margin-bottom: 45px;
+        margin-top: 8px;
+        background-position: center;            /* Center the image */
+        background-repeat: no-repeat;           /* Do not repeat the image */
+        background-size: cover;
+    }
+    
+    .content-item:nth-of-type(7) {
+        grid-column: 2 / 12;
+        grid-row: 59 / 100;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .content-item:nth-of-type(9) {
+        grid-column: 2 / 12;
+        grid-row: 94 / 129;
+        margin-top: 0px;
+    }
+    
+    .content-item:nth-of-type(10) {
+        grid-column: 2 / 12;
+        grid-row: 129 / 141;
+        background-image: url("rocket-ad.jpg");
+        height: 1000px;                           /*ADJUST FOR MEDIA QUERY*/
+        max-width: 100%;
+        max-height: 100%;
+        margin-top: 0px;
+        background-position: top;            /* Center the image */
+        background-repeat: no-repeat;           /* Do not repeat the image */
+        background-size: contain;
+    }
+    
+    .content-item:nth-of-type(11) {
+        grid-column: 2 / 12;
+        grid-row: 142 / 170;
+    }
+    
+    .content-item:nth-of-type(12) {
+        grid-column: 2 / 12;
+        grid-row: 167 / 171;
+    }
 }
 
 
