@@ -1,25 +1,18 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="navbar.css">                         <!-- link html file with CSS -->
-    <meta charset="UTF-8">                                                          <!-- Characters -->
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="menu.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">                     <!-- Link Google Fonts-->
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;700&family=Teko:wght@300&display=swap" rel="stylesheet"> 
-    <title>Saskia Tromp</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;700&family=Teko:wght@300&display=swap" rel="stylesheet">
+    <title>navbar</title>
 </head>
-
 <body>
-
-    <!--Navbar NEU -->
-    <nav class="navbar">
-        
-        <div class="nav-container">
-            <div class="nav-item"></div>
-
-            <div class="nav-item">                         
+    <header>
+        <div class="container">
+            <nav class="nav_checkbox">
                 <div class="logo">
                     <svg id="Logo" xmlns="http://www.w3.org/2000/svg" width="122" height="114.727" viewBox="0 0 122 114.727">
                         <g id="Pfad_1" data-name="Pfad 1" fill="none">
@@ -45,32 +38,22 @@
                     </svg>
                     <!-- <a href="#" class="logo-pic" alt="Logo Saskia Tromp">ST LOGO</a> -->
                 </div>
-            </div>
-
-            <div class="nav-item"></div>
-
-            <div class="nav-item">
-                <div class="nav-links">
-                    <ul>
-                        <li>
-                            <a href="#">HOME</a>
-                        </li>
-                        <li>
-                            <a href="#">ABOUT</a>
-                        </li>
-                        <li>
-                            <a href="#">WORK</a>
-                        </li>
-                        <li>
-                            <a href="#">BLOG</a>
-                        </li>
-                        <li>
-                            <a href="#">CONTACT</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+                <input type="checkbox" id="tab-nav" class="tab-nav">
+                <label for="tab-nav" class="label">
+                    <div class="burger"></div>
+                    <div class="burger"></div>
+                    <div class="burger"></div>
+                </label>
+                <ul class="content_nav">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">WORK</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </nav>
         </div>
-
-    </nav>
+    </header>
+    
 </body>
+</html>
