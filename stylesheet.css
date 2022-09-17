@@ -185,6 +185,10 @@ a {
 
 /* Container grid css */
 
+.intro {
+    padding-top: 7%;
+}
+
 .content-container {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -294,6 +298,10 @@ a {
 /* Media Queries max 1500px*/
 
 @media only screen and (max-width: 1500px) {
+    .intro {
+        padding-top: 9%;
+    }
+
     h1 {
         font-size: 64px;
     }
@@ -342,6 +350,10 @@ a {
 /* Media Queries max 1100 px */
 
 @media only screen and (max-width: 1100px) {
+    .intro {
+        padding-top: 11%;
+    }
+
     h1 {
         font-size: 56px;
     }
@@ -406,6 +418,10 @@ a {
 /* Media Queries max 812 px*/ /*----------------------------------------------------------------*/
 
 @media only screen and (max-width:812px) {
+
+    .intro {
+        padding-top: 13%;
+    }
 
     .content-container {
         display: grid;
@@ -497,6 +513,10 @@ a {
 /* Media Queries max 750 px*/ /*----------------------------------------------------------------*/
 
 @media only screen and (max-width:750px) {
+    .intro {
+        padding-top: 14%;
+    }
+
     .item:nth-of-type(5) {
         grid-column: 7 / 12;
         padding-left: 20px;
@@ -512,7 +532,9 @@ a {
 /* Media Queries max 650 px*/ /*----------------------------------------------------------------*/
 
 @media only screen and (max-width:650px) {
-    /* Container grid css */
+    .intro {
+        padding-top: 15%;
+    }
 
 .content-container {
     display: grid;
@@ -603,6 +625,10 @@ h1 {
 /* Media Queries max 530 px*/ /*----------------------------------------------------------------*/
 
 @media only screen and (max-width: 530px) {
+    .intro {
+        padding-top: 15%;
+    }
+
     .content-container {
         display: grid;
         grid-template-columns: repeat(12, 1fr);

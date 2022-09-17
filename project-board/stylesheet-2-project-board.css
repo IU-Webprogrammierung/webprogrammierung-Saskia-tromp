@@ -157,12 +157,18 @@ a {
 
 /* --------------------------- CONTENT CSS ---------------------------------*/
 
+.header {
+    margin-top: 5%;
+    z-index: 0;
+}
+
 #content-container {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(47, 120px);                
     gap: 0px;
     margin: 20px;
+    margin-top: -10px;
     margin-left: 0px;
     margin-right: 0px;
 }
