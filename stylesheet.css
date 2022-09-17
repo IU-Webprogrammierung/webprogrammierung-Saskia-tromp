@@ -1024,7 +1024,7 @@ ion-icon {
     }
 
     #grid-container-ftr {
-        max-width: 100%;                          /*ADJUST MED QUERIES */
+        max-width: 100%;                          
     }
 
     .ftr-item:nth-of-type(1) {
