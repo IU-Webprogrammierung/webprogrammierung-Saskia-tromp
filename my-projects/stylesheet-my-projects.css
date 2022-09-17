@@ -330,6 +330,8 @@ a {
     margin: 24px;
     font-family: IBM Plex Sans, Lato, sans-serif;
     border: none;
+    margin-top: 2%;
+    margin-bottom: 5%;
 }
 
 .more-projects-btn:hover {
