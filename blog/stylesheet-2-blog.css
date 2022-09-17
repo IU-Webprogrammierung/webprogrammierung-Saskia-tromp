@@ -676,7 +676,7 @@ ion-icon {
 @media only screen and (max-width: 850px) {
     .ftr-h1 {
         font-size: 64px;
-        margin-top: -18px;
+        margin-bottom: 12px;
         margin-right: 8px;
         padding-left: 1fr;
     }
@@ -777,14 +777,14 @@ ion-icon {
 
 /*---------------------------------------------------------------------*/
 
-/* FOOTER MEDIA QUERIES MAX 530PX */
+/* FOOTER MEDIA QUERIES MAX 620px */
 
-@media only screen and (max-width: 530px) {
+@media only screen and (max-width: 620px) {
     #grid-container-ftr {
         grid-template-columns: repeat(8,1fr);
         grid-template-rows: repeat(13,60px);
-        max-width: 530px;    
-        min-width: 360px;                      
+        max-width: 100%;    
+        min-width: 100%;                      
     }
     
     .ftr-item:nth-of-type(1) {
@@ -860,5 +860,12 @@ ion-icon {
         font-size: 12px;
     }
     
+}
+
+@media only screen and (max-width: 400px) {
+    .ftr-h1 {
+        font-size: 62px;
+        margin-left: -12px;
+    }
 }
 
