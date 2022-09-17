@@ -173,15 +173,15 @@ a {
 /* Start body css */
 
 .my-projects {
-    padding-top: 5%;
+    padding-top: -5%;
 }
 
 .my-work-title {
     font-size: 68px;
     font-weight: 700;
-    padding-left: 72px;
-    margin-bottom: -48px;
-    margin-top: 40px;
+    margin-left: 10%;
+    margin-bottom: -68px;
+    margin-top: 10%;
 }
 
 .my-work-container {
@@ -460,6 +460,10 @@ box-shadow: 2px 2px 2px 0px rgba(80, 80, 80, 0.3);
 
 @media only screen and (max-width: 749px) {
 
+    .my-projects {
+        padding-top: 9%;
+    }
+
     .card-2  {
         margin-top: 12px;
         margin-left: 80px;
@@ -584,6 +588,21 @@ box-shadow: 2px 2px 2px 0px rgba(80, 80, 80, 0.3);
     }
 }
 
+@media only screen and (max-width: 739px) {
+
+.my-work-title {
+    font-size: 68px;
+    font-weight: 700;
+    margin-left: 16%;
+    margin-bottom: -68px;
+    margin-top: 10%;
+}
+
+.my-projects {
+    padding-top: 16%;
+}
+
+}
 
 
 /* start footer css */
