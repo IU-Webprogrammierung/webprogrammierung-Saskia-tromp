@@ -245,6 +245,16 @@ a {
     margin-top: 12px;
 }
 
+.content-mail, .content-insta, .content-fb {
+    border: none;
+    background-color: #FF9100;
+    padding: 12px;
+    padding-left: 0px;
+    padding-top: 0px;
+    margin: 8px;
+    margin-left: 0px;
+}
+
 .item:nth-of-type(5) {
     grid-column: 8 / 12;
     grid-row: 2 / 8;
