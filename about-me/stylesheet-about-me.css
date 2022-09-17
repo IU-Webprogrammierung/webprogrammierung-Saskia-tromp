@@ -537,6 +537,7 @@ ion-icon {
 
     .form {
         grid-template-columns: 40% 60%;
+        margin-top: 12px;
     }
 
     .form label {
@@ -549,10 +550,11 @@ ion-icon {
         width: 80%;
         border-style: none;
         padding: 4px;
+        margin-top: 16px;
     }
 
     .form label {
-        margin-top: 0px;
+        margin-top: 12px;
         margin-bottom: 16px;
     }
 }
