@@ -83,7 +83,7 @@ a {
     content: '';
     display: block;
     height: 2px;
-    background-color: white;
+    background-color: #FF9100;
     position: absolute;
     left: 0;
     right: 0;
