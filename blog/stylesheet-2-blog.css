@@ -34,6 +34,7 @@ h3 {
 }
 
 /* NAVBAR */
+
 body{
     margin: 0;
     padding: 0;
@@ -173,7 +174,6 @@ a {
         padding: 15px 0px;
     }
 
-
 }
 
 /* Grid Container CSS */
@@ -186,8 +186,7 @@ a {
     margin: 20px;
     margin-left: 0px;
     margin-right: 0px;
-    margin-top: 5%;
-
+    margin-top: 7%;
 }
 
 .item:nth-of-type(1) {
@@ -325,11 +324,7 @@ a {
         display: grid;
         grid-template-columns: repeat(8,1fr);
         grid-template-rows: repeat(36,70px);
-        /* gap: 0px;
-        margin: 20px;
-        margin-left: 0px;
-        margin-right: 0px;
-        */
+        padding-top: 5%;
     }
     
     .item:nth-of-type(1) {
@@ -344,7 +339,7 @@ a {
         grid-row: 1 / 3;
         text-align: center;
         padding-bottom: 5%;                       
-        padding-top: 8%;
+        padding-top: 6%;
         font-size: 64px;
         font-weight: 700;
     }
@@ -411,6 +406,14 @@ a {
         padding-bottom: 18px;
     }
     
+}
+
+/* MAX 500 px*/
+
+@media only screen and (max-width: 500px) {
+    #grid-container {
+        padding-top: 12%;
+    }
 }
 
 /*MEDIA QUERIES MIN 1000 PX*/ 
