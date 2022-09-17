@@ -11,7 +11,7 @@ body {
     line-height: 1.5;
 }
 
-/* Grid Container CSS */
+/* FOOTER Grid Container CSS */
 
 #grid-container-ftr {
     display: grid;
@@ -21,9 +21,9 @@ body {
     margin: 20px;
     margin-left: 0px;
     margin-right: 0px;
-    max-width: 1180px;                          /*ADJUST MED QUERIES */
+    max-width: 1180px;                          
     margin-right: auto;
-    margin-left: auto;                             /*stays in the middle */
+    margin-left: auto;                             
 }
 
 .ftr-item:nth-of-type(1) {
@@ -81,7 +81,7 @@ ion-icon {
     grid-row: 3 / 9;
 }
 
-/* FORM STYLING */
+/* FOOTER FORM STYLING */
 
 .form {
     display: grid;
@@ -144,7 +144,7 @@ ion-icon {
     font-weight: 600;
 }
 
-/* MEDIA QUERIES FTR */
+/* FOOTER MEDIA QUERIES */
 
 @media only screen and (min-width: 1150px){
     #grid-container-ftr {
@@ -184,7 +184,7 @@ ion-icon {
 
 }
 
-/* MEDIA QUERIES max 850 */
+/* FOOTER MEDIA QUERIES max 850 */
 
 @media only screen and (max-width: 850px) {
     .ftr-h1 {
@@ -201,7 +201,7 @@ ion-icon {
     
 }
 
-/* MEDIA QUERIES MAX 700PX */
+/* FOOTER MEDIA QUERIES MAX 700PX */
 
 @media only screen and (max-width: 700px) {
     #grid-container-ftr {
@@ -290,7 +290,7 @@ ion-icon {
 
 /*---------------------------------------------------------------------*/
 
-/* MEDIA QUERIES MAX 530PX */
+/* FOOTER MEDIA QUERIES MAX 530PX */
 
 @media only screen and (max-width: 530px) {
     #grid-container-ftr {
