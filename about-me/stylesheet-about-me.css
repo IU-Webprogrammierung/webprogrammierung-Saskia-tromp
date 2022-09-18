@@ -533,6 +533,7 @@ ion-icon {
     .ftr-item:nth-of-type(6) {
         grid-column: 5 / 9;
         grid-row: 10 / 11;
+        margin-top: 10%;
     }
     
 
