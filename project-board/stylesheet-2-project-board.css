@@ -165,6 +165,10 @@ a {
     z-index: 0;
 }
 
+.content {
+    margin-top: 5%;
+}
+
 #content-container {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -715,6 +719,10 @@ h3 {
 /* Mobile Media Queries 440 - 539px*/ 
 
 @media only screen and (max-width:539px) {
+    .content {
+        margin-top: 15%;
+    }
+
     #content-container {
         grid-template-rows: repeat(175, 40px);                
     }
@@ -1060,7 +1068,7 @@ h3 {
 /* FOOTER Grid Container CSS */
 
 .ftr {
-    margin-top: 7%;
+    margin-top: 20%;
 }
 
 #grid-container-ftr {
