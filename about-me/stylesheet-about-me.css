@@ -57,6 +57,8 @@ header{
 }
 
 .logo{
+    display: flex;
+    align-self: center;
     grid-column: 2 / 3;
     text-decoration: none;
     color: white;
