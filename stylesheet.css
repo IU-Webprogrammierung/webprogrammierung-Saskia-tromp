@@ -78,6 +78,8 @@ header{
 }
 
 svg {
+    display: flex;
+    align-self: center;
     height: 66px;
     width: 66px;
 }
