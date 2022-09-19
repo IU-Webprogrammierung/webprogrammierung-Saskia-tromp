@@ -155,6 +155,10 @@ a {
         margin-left: 32px;
     }
 
+    .content_nav li a::after {
+        display: none;
+    }
+
     .content_nav{
         display: grid;
         grid-template-columns: 1fr;
